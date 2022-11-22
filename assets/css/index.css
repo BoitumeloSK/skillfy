@@ -1,15 +1,13 @@
 :root{
     --main-text-color: #444444;
     --main-icon-color: #7ed957;
-    --main-btn-color: coral;
+    --main-btn-color: #ff7f50;
     --main-btntxt-color: white;
     --main-navtxt-color: black;
 }
 body{
     font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;
     color: var(--main-text-color);
-    padding-left: 80px;
-    padding-right:80px;
     font-weight: 400;
 }
 .navbar{
@@ -20,6 +18,8 @@ body{
     flex-direction: row;
     display:flex;
     justify-content: center;
+    padding-left: 80px;
+    padding-right:80px;
 }
 .navbar ul{
     list-style-type: none;
@@ -71,13 +71,15 @@ i{
     display: flex;
     flex-direction: row;
     padding-top:1rem;
-    background: url('https://res.cloudinary.com/dhrftaik2/image/upload/v1669070879/Practice/first_z3lnyx.png');
+    background: url('https://res.cloudinary.com/dhrftaik2/image/upload/v1669153368/Practice/ircle_3_lau2ab.png');
     background-repeat: no-repeat;
     background-size: 80rem;
     background-position: center;
     justify-content: center;
     align-items: flex-end;
     line-height: 1.5rem;
+    padding-left: 80px;
+    padding-right:80px;
 }
 #studying{
     max-height: 25rem;
@@ -111,6 +113,8 @@ i{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-left: 80px;
+    padding-right:80px;
 }
 .row{
     display: flex;
@@ -120,8 +124,8 @@ i{
     height: 80px
 }
 .column{
-    width: 25%;
-    padding: 1rem;
+    width: 220px;
+    padding: 30px;
     padding-top: 1rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 1rem;
@@ -129,4 +133,39 @@ i{
 #secondSection h1{
     font-size: 1.8rem;
     text-align: center;
+}
+/*Third Section*/
+#thirdSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url('https://res.cloudinary.com/dhrftaik2/image/upload/v1669151169/Practice/Copy_of_ircle_oitjm1.png');
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100%;
+    padding: 1rem;
+
+}
+#thirdSection h1{
+    font-size: 1.8rem;
+    margin-block-start: 0;
+}
+#collaboration{
+    height:20rem;
+    width:26rem;
+    border-radius: 5%;
+}
+#thirdSection .column2{
+    width:32%;
+    padding: 2rem;
+}
+.container{
+    align-items: center;
+}
+#checkbox{
+    width: 20px;
+    align-items:center;
+    margin-right: 0.5rem;
+    top: 5px;
+    position: relative;
 }
