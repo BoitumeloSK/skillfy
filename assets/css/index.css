@@ -13,7 +13,7 @@ body{
 }
 .navbar{
     overflow: hidden;
-    font-size: 18px;
+    font-size: 1rem;
     padding-bottom:0;
     position:relative;
     flex-direction: row;
@@ -94,4 +94,36 @@ i{
     font-size: 2rem;
     line-height: 2rem;
 }
-
+.sharing{
+    font-size: 0.8rem;
+}
+.chosenShare{
+    background-position: center;
+    background-repeat: none;
+    opacity: 0.6;
+    background-size: 2rem;
+    padding:0.5rem;
+}
+/*Second Section*/
+#secondSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.center{
+    text-align: center;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+#career{
+    height: 80px
+}
+.column{
+    width: 25%;
+    padding: 1rem;
+    padding-top: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 1rem;
+}
