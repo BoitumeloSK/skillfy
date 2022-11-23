@@ -4,6 +4,7 @@
     --main-btn-color: #ff7f50;
     --main-btntxt-color: white;
     --main-navtxt-color: black;
+    --main-star-color: gold;
 }
 body{
     font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;
@@ -62,7 +63,7 @@ i{
 #regBtn{
     background-color:var(--main-btn-color);
     color: var(--main-btntxt-color);
-    padding: 12px;
+    padding: 10px;
     border:none;
     border-radius: 4px;
 }
@@ -116,7 +117,7 @@ i{
     padding-left: 80px;
     padding-right:80px;
 }
-.row{
+.row1{
     display: flex;
     justify-content: center;
 }
@@ -155,7 +156,7 @@ i{
     width:26rem;
     border-radius: 5%;
 }
-#thirdSection .column2{
+.column2{
     width:32%;
     padding: 2rem;
 }
@@ -168,4 +169,60 @@ i{
     margin-right: 0.5rem;
     top: 5px;
     position: relative;
+}
+/*Fourth Section*/
+#fourthSection{
+    padding-left:80px;
+    padding-right:80px;
+    justify-content: center;
+}
+#design{
+    float: right;
+    position: relative;
+    top:30px;
+}
+.column4{
+    width:50%;
+}
+.row{
+    display: flex;
+}
+#student{
+    width:250px;
+    height:150px;
+}
+#star{
+    color: var(--main-star-color);
+}
+#eye{
+    color: var(--main-btn-color);
+}
+.column3{
+    width: 250px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 1rem;
+}
+#fourthSection .cardSpan{
+    margin-right: 15px;
+    opacity: 0.8;
+    font-size:13px;
+}
+#instructor{
+    border-radius:100%;
+    width:48px;
+    height: 48px;
+}
+.insDetails{
+    display: flex;
+}
+.cost{
+    position: relative;
+    top: 12px;
+    margin-left: 5px;
+}
+.discount{
+    color: var(--main-btn-color);
+    opacity: 0.8;
+    font-size:13px;
 }
