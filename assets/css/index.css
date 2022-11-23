@@ -71,16 +71,15 @@ i{
 #firstSection{
     display: flex;
     flex-direction: row;
-    padding-top:1rem;
-    background: url('https://res.cloudinary.com/dhrftaik2/image/upload/v1669153368/Practice/ircle_3_lau2ab.png');
-    background-repeat: no-repeat;
-    background-size: 80rem;
-    background-position: center;
     justify-content: center;
-    align-items: flex-end;
-    line-height: 1.5rem;
-    padding-left: 80px;
-    padding-right:80px;
+    background-image: url('https://res.cloudinary.com/dhrftaik2/image/upload/v1669153368/Practice/ircle_3_lau2ab.png');
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100%;
+}
+.testColumn{
+    width:38%;
+    padding: 1rem;
 }
 #studying{
     max-height: 25rem;
@@ -95,7 +94,7 @@ i{
     align-content: flex-end;
 }
 #welcome{
-    font-size: 2.4rem;
+    font-size: 2.8rem;
     line-height: 2.5rem;
     margin-block-end: 0px;
 }
@@ -128,7 +127,7 @@ i{
     width: 220px;
     padding: 30px;
     padding-top: 1rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 16px 0 rgba(70, 69, 69, 0.2), 0 6px 20px 0 rgba(95, 95, 95, 0.19);
     margin: 1rem;
 }
 #secondSection h1{
@@ -152,7 +151,7 @@ i{
     margin-block-start: 0;
 }
 #collaboration{
-    height:20rem;
+    height:18rem;
     width:26rem;
     border-radius: 5%;
 }
@@ -190,6 +189,7 @@ i{
 #student{
     width:250px;
     height:150px;
+    border-radius: 2%;
 }
 #star{
     color: var(--main-star-color);
@@ -200,7 +200,7 @@ i{
 .column3{
     width: 250px;
     padding: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 16px 0 rgba(70, 69, 69, 0.2), 0 6px 20px 0 rgba(95, 95, 95, 0.19);
     margin: 1rem;
 }
 #fourthSection .cardSpan{
@@ -225,4 +225,23 @@ i{
     color: var(--main-btn-color);
     opacity: 0.8;
     font-size:13px;
+}
+/*FourthSection*/
+#fifthSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url('https://res.cloudinary.com/dhrftaik2/image/upload/v1669241108/Practice/fifthbg_cltp90.png');
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100%;
+    padding: 1rem;
+
+}
+.video{
+    height:18rem;
+    width:26rem;
+    border-radius: 1%;
+    border: 15px solid var(--main-btntxt-color);
+    box-shadow: 0 8px 16px 0 rgba(70, 69, 69, 0.2), 0 6px 20px 0 rgba(95, 95, 95, 0.19);
 }
