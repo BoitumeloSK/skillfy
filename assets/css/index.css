@@ -178,13 +178,14 @@ i{
 #design{
     float: right;
     position: relative;
-    top:30px;
 }
 .column4{
     width:50%;
 }
 .row{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #student{
     width:250px;
@@ -203,7 +204,7 @@ i{
     box-shadow: 0 8px 16px 0 rgba(70, 69, 69, 0.2), 0 6px 20px 0 rgba(95, 95, 95, 0.19);
     margin: 1rem;
 }
-#fourthSection .cardSpan{
+.cardSpan{
     margin-right: 15px;
     opacity: 0.8;
     font-size:13px;
@@ -226,7 +227,7 @@ i{
     opacity: 0.8;
     font-size:13px;
 }
-/*FourthSection*/
+/*Fifth Section*/
 #fifthSection{
     display: flex;
     flex-direction: row;
@@ -244,4 +245,24 @@ i{
     border-radius: 1%;
     border: 15px solid var(--main-btntxt-color);
     box-shadow: 0 8px 16px 0 rgba(70, 69, 69, 0.2), 0 6px 20px 0 rgba(95, 95, 95, 0.19);
+}
+/*Sixth Section*/
+#sixthSection{
+    justify-content: center;
+    background-image: url('https://res.cloudinary.com/dhrftaik2/image/upload/v1669151169/Practice/Copy_of_ircle_oitjm1.png');
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100%; 
+    padding: 2rem;
+    padding-top:1;
+}
+.column5{
+    width: 250px;
+    padding: 10px;
+    margin: 1rem;
+    background-color: var(--main-btntxt-color);
+}
+#sixthSection .row{
+    justify-content: center;
+    align-items: center;
 }
