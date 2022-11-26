@@ -5,11 +5,15 @@
     --main-btntxt-color: white;
     --main-navtxt-color: black;
     --main-star-color: gold;
+    --main-social-color: #ad37ca;
 }
 body{
     font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;
     color: var(--main-text-color);
     font-weight: 400;
+}
+a{
+    text-decoration: none;
 }
 .navbar{
     overflow: hidden;
@@ -42,7 +46,6 @@ body{
     padding-bottom:0;
     align-items: center;
     color: var(--main-navtxt-color);
-    text-decoration: none;
 }
 i{
     color: var(--main-icon-color);
@@ -66,6 +69,7 @@ i{
     padding: 10px;
     border:none;
     border-radius: 4px;
+    height: 1.5rem;
 }
 /*First Section*/
 #firstSection{
@@ -119,6 +123,7 @@ i{
 .row1{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 #career{
     height: 80px
@@ -273,4 +278,88 @@ i{
     justify-content: center;
     width: 100%;
   }
+/*Seventh Section*/
+#seventhSection{
+    text-align: center;
+    padding-bottom: 3rem;
+}
+/*Eighth Section Section*/
+#eighthSection{
+    display:flex;
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding: 2rem;
+    background-image: url('https://res.cloudinary.com/dhrftaik2/image/upload/v1669493567/Practice/socialsbg_qbthbv.png');
+    background-repeat: none;
+    position: relative;
+    height: 300px;
+    margin-bottom: 80px;
+}
+#eighthSection .row{
+    justify-content:unset;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    margin-left: 20px;
+}
+#next {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
   
+  #next:hover {
+    background-color: var(--main-btntxt-color);
+    color: var(--main-navtxt-color);
+  }
+  
+  .previous {
+    background-color: var(--main-btntxt-color);
+    color: var(--main-navtxt-color);
+  }
+  
+  .next {
+    background-color: var(--main-btn-color);
+    color: var(--main-btntxt-color);
+  }
+  #twitter{
+    width:45px;
+    height: 45px;
+    border-radius:4px;
+  }
+  #eighthSection .cost{
+    top:0;
+    margin-left: 10px;
+    margin-right: 25px;
+  }
+  #eighthSection .discount{
+    font-size: 16px;
+  }
+  #eighthSection .column4{
+    width: 87%;
+  }
+  #apple{
+    color: var(--main-btntxt-color);
+  }
+  #androidBtn{
+    background-color:var(--main-btntxt-color);
+    color: var(--main-navtxt-color);
+    padding: 10px;
+    border:none;
+    border-radius: 4px;
+    margin-right: 1.5rem;
+    margin-left: 5rem;
+    height: 1.5rem;
+}
+.row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-social-color);
+    width: 70%;
+    margin-left: 110px;
+    padding: 1rem;
+    border-radius: 4px;
+}
