@@ -289,7 +289,7 @@ i{
     justify-content: center;
     padding-left: 150px;
     padding-right: 150px;
-    padding: 2rem;
+    padding: 1rem;
     background-image: url('https://res.cloudinary.com/dhrftaik2/image/upload/v1669493567/Practice/socialsbg_qbthbv.png');
     background-repeat: none;
     position: relative;
@@ -360,6 +360,6 @@ i{
     background-color: var(--main-social-color);
     width: 70%;
     margin-left: 110px;
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 4px;
 }
