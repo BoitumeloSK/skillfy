@@ -17,7 +17,74 @@ body{
 a{
     text-decoration: none;
 }
-.navbar{
+i{
+    color: var(--main-icon-color);
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mainBtn{
+    background-color:var(--main-btn-color);
+    color: var(--main-btntxt-color);
+    padding: 10px;
+    border:none;
+    border-radius: 4px;
+    height: 1.5rem;
+}
+section{
+    justify-content: center;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*Columns*/
+.column{
+    width:38%;
+    padding: 1rem;
+}
+.column1{
+    width: 220px;
+    padding: 30px;
+    padding-top: 1rem;
+    box-shadow: 0 8px 16px 0 rgba(70, 69, 69, 0.2), 0 6px 20px 0 rgba(95, 95, 95, 0.19);
+    margin: 1rem;
+}
+.column2{
+    width:32%;
+    padding: 2rem;
+}
+.column3{
+    width:70%;
+}
+.column4{
+    width: 250px;
+    padding: 10px;
+    box-shadow: 0 8px 16px 0 rgba(70, 69, 69, 0.2), 0 6px 20px 0 rgba(95, 95, 95, 0.19);
+    margin: 1rem;
+}
+.column5{
+    width: 250px;
+    padding: 10px;
+    margin: 1rem;
+    background-color: var(--main-btntxt-color);
+}
+.column6 {
+    width: 360px;
+    padding: 20px;
+    margin: 1rem;
+    padding-bottom: 30px;
+}
+.column7{
+    width: 250px;
+    padding: 10px;
+    margin: 1rem;
+    height: 150px;
+    margin-bottom: 120px;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*Header*/
+nav{
     overflow: hidden;
     font-size: 1rem;
     padding-bottom:0;
@@ -27,20 +94,21 @@ a{
     justify-content: center;
     padding-left: 80px;
     padding-right:80px;
+    margin-bottom: 15px;
 }
-.navbar ul{
+nav ul{
     list-style-type: none;
     margin: 0;
     padding-top: 10px;
     padding-bottom: 0;
     padding-left:10px;
 }
-.navbar li{
+nav li{
     display: inline-block;
     text-align: center;
     align-items: center;
 }
-.navbar a{
+nav a{
     display: block;
     padding-top:0;
     padding-left: 35px;
@@ -48,9 +116,6 @@ a{
     padding-bottom:0;
     align-items: center;
     color: var(--main-navtxt-color);
-}
-i{
-    color: var(--main-icon-color);
 }
 #logo{
     margin: 0;
@@ -65,29 +130,17 @@ i{
     padding:10px;
     color: var(--main-text-color);
 }
-#regBtn{
-    background-color:var(--main-btn-color);
-    color: var(--main-btntxt-color);
-    padding: 10px;
-    border:none;
-    border-radius: 4px;
-    height: 1.5rem;
-}
+
 /*First Section*/
 #firstSection{
     display: flex;
     flex-direction: row;
-    justify-content: center;
     background-image: url('https://res.cloudinary.com/dhrftaik2/image/upload/v1669153368/Practice/ircle_3_lau2ab.png');
     background-repeat: no-repeat;
     position: relative;
     background-size: 100%;
 }
-.testColumn{
-    width:38%;
-    padding: 1rem;
-}
-#studying{
+#welcomePic{
     max-height: 25rem;
     width:20rem;
     border-radius: 5%;
@@ -95,9 +148,6 @@ i{
 #firstSection .h1 i{
     color: var(--main-btn-color);
     font-size:30px;
-}
-#firstText{
-    align-content: flex-end;
 }
 #welcome{
     font-size: 2.8rem;
@@ -118,56 +168,36 @@ i{
 #secondSection{
     display: flex;
     flex-direction: row;
-    justify-content: center;
     padding-left: 80px;
     padding-right:80px;
+    margin-bottom: 25px;
 }
-.row1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#career{
+#careerIcon{
     height: 80px
-}
-.column{
-    width: 220px;
-    padding: 30px;
-    padding-top: 1rem;
-    box-shadow: 0 8px 16px 0 rgba(70, 69, 69, 0.2), 0 6px 20px 0 rgba(95, 95, 95, 0.19);
-    margin: 1rem;
 }
 #secondSection h1{
     font-size: 1.8rem;
     text-align: center;
 }
+
 /*Third Section*/
 #thirdSection{
     display: flex;
     flex-direction: row;
-    justify-content: center;
     background-image: url('https://res.cloudinary.com/dhrftaik2/image/upload/v1669151169/Practice/Copy_of_ircle_oitjm1.png');
     background-repeat: no-repeat;
     position: relative;
     background-size: 100%;
     padding: 1rem;
-
 }
 #thirdSection h1{
     font-size: 1.8rem;
     margin-block-start: 0;
 }
-#collaboration{
+#collaborationPic{
     height:18rem;
     width:26rem;
     border-radius: 5%;
-}
-.column2{
-    width:32%;
-    padding: 2rem;
-}
-.container{
-    align-items: center;
 }
 #checkbox{
     width: 20px;
@@ -180,51 +210,37 @@ i{
 #fourthSection{
     padding-left: 230px;
     padding-right: 230px;
-    justify-content: center;
+    margin-bottom: 2rem;
 }
-#design{
+#rightFloatDiv{
     float: right;
     position: relative;
 }
-.column4{
-    width:70%;
-}
-.row{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#student{
+#studentPic{
     width:250px;
     height:150px;
     border-radius: 2%;
 }
-#star{
+#starIcon{
     color: var(--main-star-color);
 }
-#eye{
+#eyeIcon{
     color: var(--main-btn-color);
-}
-.column3{
-    width: 250px;
-    padding: 10px;
-    box-shadow: 0 8px 16px 0 rgba(70, 69, 69, 0.2), 0 6px 20px 0 rgba(95, 95, 95, 0.19);
-    margin: 1rem;
 }
 .cardSpan{
     margin-right: 15px;
     opacity: 0.8;
     font-size:13px;
 }
-#instructor{
+#instructorPic{
     border-radius:100%;
     width:48px;
     height: 48px;
 }
-.insDetails{
+.profileDetails{
     display: flex;
 }
-.cost{
+.profileName{
     position: relative;
     top: 12px;
     margin-left: 5px;
@@ -238,13 +254,12 @@ i{
 #fifthSection{
     display: flex;
     flex-direction: row;
-    justify-content: center;
     background-image: url('https://res.cloudinary.com/dhrftaik2/image/upload/v1669241108/Practice/fifthbg_cltp90.png');
     background-repeat: no-repeat;
     position: relative;
     background-size: 100%;
     padding: 1rem;
-
+    margin-bottom: 3rem;
 }
 .video{
     height:18rem;
@@ -255,7 +270,6 @@ i{
 }
 /*Sixth Section*/
 #sixthSection{
-    justify-content: center;
     background-image: url('https://res.cloudinary.com/dhrftaik2/image/upload/v1669151169/Practice/Copy_of_ircle_oitjm1.png');
     background-repeat: no-repeat;
     position: relative;
@@ -264,17 +278,19 @@ i{
     padding-top:1;
     padding-left: 150px;
     padding-right: 150px;
-}
-.column5{
-    width: 250px;
-    padding: 10px;
-    margin: 1rem;
-    background-color: var(--main-btntxt-color);
+    padding-top: 10px;
 }
 #sixthSection .row{
-    justify-content: center;
-    align-items: center;
-    width: 100%
+    width: 100%;
+}
+#sixthSection .column3{
+    width: 70%;
+    margin-left: 80px;
+}
+#sixthSection .column6{
+    position: relative;
+    top: 10px;
+    margin-right: 60px;
 }
 .slidecontainer {
     justify-content: center;
@@ -283,27 +299,33 @@ i{
 /*Seventh Section*/
 #seventhSection{
     text-align: center;
-    padding-bottom: 3rem;
+    margin-bottom: 3rem;
 }
 /*Eighth Section Section*/
 #eighthSection{
     display:flex;
-    justify-content: center;
     padding-left: 150px;
     padding-right: 150px;
     padding: 1rem;
     background-image: url('https://res.cloudinary.com/dhrftaik2/image/upload/v1669543515/Practice/socialsbg_bn4od3.png');
     background-repeat: none;
     position: relative;
-    height: 300px;
-    margin-bottom: 80px;
+    height: 370px;
+    margin-bottom: 5rem;
+    padding-top: 0;
 }
 #eighthSection .row{
     justify-content:unset;
-    align-items: center;
     width: 100%;
-    display: flex;
+}
+#eighthSection .column3{
+    width: 90%;
     margin-left: 20px;
+}
+#eighthSection .column6{
+    top: 10px;
+    margin-left: 50px;
+    padding-right: 0;
 }
 #next {
     text-decoration: none;
@@ -331,16 +353,13 @@ i{
     height: 45px;
     border-radius:4px;
   }
-  #eighthSection .cost{
+  #eighthSection .profileName{
     top:0;
     margin-left: 10px;
     margin-right: 25px;
   }
   #eighthSection .discount{
     font-size: 16px;
-  }
-  #eighthSection .column4{
-    width: 87%;
   }
   #apple{
     color: var(--main-btntxt-color);
@@ -370,21 +389,14 @@ i{
     margin-bottom: 25px;
     margin-top: 0;
 }
-.column7 {
-    width: 360px;
-    padding: 20px;
-    margin: 1rem;
-    padding-bottom: 30px;
+#ninthSection .row{
+    align-items: unset;
 }
 h4{
     margin: 0;
     margin-bottom: 5px;
 }
-.row3{
-    display: flex;
-    justify-content: center;
-}
-.details{
+.applyDetails{
     margin-left: 15px;
 }
 #teacher{
@@ -395,24 +407,13 @@ h4{
     background-color: var(--main-business-color);
     border-radius: 4px; 
 }
-/*Tenth Section*/
+/*Footer*/
 footer{
     padding-left: 150px;
     padding-right: 130px;
     background-color: var(--main-text-color);
     color: var(--main-btntxt-color);
     bottom: 0;
-}
-.row5{
-    display: flex;
-    justify-content: center;
-}
-.column8{
-    width: 250px;
-    padding: 10px;
-    margin: 1rem;
-    height: 150px;
-    margin-bottom: 120px;
 }
 hr{
     width: 100%;
@@ -429,6 +430,6 @@ footer .row{
     justify-content: unset;
     width: 100%;
 }
-footer .column4{
+footer .column3{
     width:95%
 }
