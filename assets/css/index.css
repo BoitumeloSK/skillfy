@@ -5,7 +5,9 @@
     --main-btntxt-color: white;
     --main-navtxt-color: black;
     --main-star-color: gold;
-    --main-social-color: #ad37ca;
+    --main-social-color: #33c072;
+    --main-teacher-color: #e1f7d8;
+    --main-business-color: #faddd3;
 }
 body{
     font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;
@@ -290,7 +292,7 @@ i{
     padding-left: 150px;
     padding-right: 150px;
     padding: 1rem;
-    background-image: url('https://res.cloudinary.com/dhrftaik2/image/upload/v1669493567/Practice/socialsbg_qbthbv.png');
+    background-image: url('https://res.cloudinary.com/dhrftaik2/image/upload/v1669543515/Practice/socialsbg_bn4od3.png');
     background-repeat: none;
     position: relative;
     height: 300px;
@@ -359,7 +361,39 @@ i{
     align-items: center;
     background-color: var(--main-social-color);
     width: 70%;
-    margin-left: 110px;
+    margin-left: 125px;
     padding: 0.5rem;
     border-radius: 4px;
+}
+/*Ninth Section*/
+#ninthSection p{
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+element.style {
+}
+.column7 {
+    width: 360px;
+    padding: 20px;
+    margin: 1rem;
+    padding-bottom: 30px;
+}
+h4{
+    margin: 0;
+    margin-bottom: 5px;
+}
+.row3{
+    display: flex;
+    justify-content: center;
+}
+.details{
+    margin-left: 15px;
+}
+#teacher{
+    background-color: var(--main-teacher-color);
+    border-radius: 4px;
+}
+#business{
+    background-color: var(--main-business-color);
+    border-radius: 4px; 
 }
