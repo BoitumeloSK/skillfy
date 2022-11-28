@@ -8,6 +8,7 @@
     --main-social-color: #33c072;
     --main-teacher-color: #e1f7d8;
     --main-business-color: #faddd3;
+    --main-section-color: #e0f6d7;
 }
 body{
     font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;
@@ -39,12 +40,9 @@ section{
 }
 /*---------------------------------------------------------------------------------------------------------------------*/
 /*Columns*/
-.column{
-    width:38%;
-    padding: 1rem;
-}
 .column1{
-    width: 220px;
+    width: 20%;
+    height: 30%;
     padding: 30px;
     padding-top: 1rem;
     box-shadow: 0 8px 16px 0 rgba(70, 69, 69, 0.2), 0 6px 20px 0 rgba(95, 95, 95, 0.19);
@@ -52,7 +50,7 @@ section{
 }
 .column2{
     width:32%;
-    padding: 2rem;
+    padding: 1rem;
 }
 .column3{
     width:70%;
@@ -92,16 +90,16 @@ nav{
     flex-direction: row;
     display:flex;
     justify-content: center;
-    padding-left: 80px;
-    padding-right:80px;
-    margin-bottom: 15px;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    margin-bottom: 2vh;
 }
 nav ul{
     list-style-type: none;
     margin: 0;
-    padding-top: 10px;
+    padding-top: 1.5vh;
     padding-bottom: 0;
-    padding-left:10px;
+    padding-left: 1.5vw;
 }
 nav li{
     display: inline-block;
@@ -135,14 +133,15 @@ nav a{
 #firstSection{
     display: flex;
     flex-direction: row;
-    background-image: url('https://res.cloudinary.com/dhrftaik2/image/upload/v1669153368/Practice/ircle_3_lau2ab.png');
+    background-image: url('https://res.cloudinary.com/dhrftaik2/image/upload/v1669666521/Practice/welcombg_xpn2p6.png');
     background-repeat: no-repeat;
     position: relative;
     background-size: 100%;
+    padding-bottom: 15px;
 }
 #welcomePic{
-    max-height: 25rem;
-    width:20rem;
+    max-height: 55vh;
+    width: 30vw;
     border-radius: 5%;
 }
 #firstSection .h1 i{
@@ -168,11 +167,9 @@ nav a{
 #secondSection{
     display: flex;
     flex-direction: row;
-    padding-left: 80px;
-    padding-right:80px;
-    margin-bottom: 25px;
+    margin-bottom: 5vh;
 }
-#careerIcon{
+#goalsIcon{
     height: 80px
 }
 #secondSection h1{
@@ -184,19 +181,18 @@ nav a{
 #thirdSection{
     display: flex;
     flex-direction: row;
-    background-image: url('https://res.cloudinary.com/dhrftaik2/image/upload/v1669151169/Practice/Copy_of_ircle_oitjm1.png');
-    background-repeat: no-repeat;
-    position: relative;
-    background-size: 100%;
-    padding: 1rem;
+    background-color: var(--main-section-color);
+    width: 100%;
+    padding: 16px;
+    padding-bottom: 30px;
 }
 #thirdSection h1{
     font-size: 1.8rem;
     margin-block-start: 0;
 }
 #collaborationPic{
-    height:18rem;
-    width:26rem;
+    height: 45vh;
+    width: 30vw;
     border-radius: 5%;
 }
 #checkbox{
@@ -295,7 +291,11 @@ nav a{
 .slidecontainer {
     justify-content: center;
     width: 100%;
+    display: flex;
   }
+.slider{
+    width:70%;
+}
 /*Seventh Section*/
 #seventhSection{
     text-align: center;
