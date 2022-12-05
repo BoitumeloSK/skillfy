@@ -46,38 +46,38 @@ section{
     padding: 30px;
     padding-top: 1rem;
     box-shadow: 0 8px 16px 0 rgba(70, 69, 69, 0.2), 0 6px 20px 0 rgba(95, 95, 95, 0.19);
-    margin: 1rem;
+    margin: 16px;
 }
 .column2{
     width:32%;
-    padding: 1rem;
+    padding: 16px;
 }
 .column3{
     width:70%;
+    margin-left: 40px;
 }
 .column4{
     width: 19%;
     padding: 10px;
     box-shadow: 0 8px 16px 0 rgba(70, 69, 69, 0.2), 0 6px 20px 0 rgba(95, 95, 95, 0.19);
-    margin: 1rem;
+    margin: 16px;
 }
 .column5{
     width: 18.5vw;
     padding: 10px;
-    margin: 1rem;
+    margin: 16px;
     background-color: var(--main-btntxt-color);
 }
 .column6 {
     width: 360px;
     padding: 20px;
-    margin: 1rem;
+    margin: 16px;
     padding-bottom: 30px;
 }
 .column7{
-    width: 250px;
-    padding: 10px;
-    margin: 1rem;
-    height: 150px;
+    width: 18vw;
+    padding: 10px 0 10px 0;
+    height: 15vw;
     margin-bottom: 120px;
 }
 /*---------------------------------------------------------------------------------------------------------------------*/
@@ -90,8 +90,7 @@ nav{
     flex-direction: row;
     display:flex;
     justify-content: center;
-    padding-left: 6vw;
-    padding-right: 6vw;
+    padding: 0px 6vw;
     margin-bottom: 2vh;
 }
 nav ul{
@@ -108,10 +107,7 @@ nav li{
 }
 nav a{
     display: block;
-    padding-top:0;
-    padding-left: 35px;
-    padding-right:30px;
-    padding-bottom:0;
+    padding: 0px 30px 0px 35px;
     align-items: center;
     color: var(--main-navtxt-color);
 }
@@ -182,9 +178,7 @@ nav a{
     display: flex;
     flex-direction: row;
     background-color: var(--main-section-color);
-    width: 100%;
-    padding: 16px;
-    padding-bottom: 30px;
+    padding: 16px 16px 30px 16px;
 }
 #thirdSection h1{
     font-size: 1.8rem;
@@ -252,7 +246,7 @@ nav a{
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
-    padding: 1rem;
+    padding: 16px;
     margin-bottom: 3rem;
 }
 .video{
@@ -268,9 +262,7 @@ nav a{
     background-repeat: no-repeat;
     position: relative;
     background-size: cover; 
-    padding-top:1;
-    padding-top: 10px;
-    padding-bottom: 30px;
+    padding: 10px 0px 30px 0px;
 }
 #sixthSection .column3{
     width: 70%;
@@ -281,27 +273,25 @@ nav a{
     top: 10px;
     margin-right: 60px;
 }
-.slidecontainer {
-    justify-content: center;
-    width: 100%;
-    display: flex;
-  }
 .slider{
     width: 60%;
+}
+.slidecontainer{
+    display: flex;
+    justify-content: center;
 }
 /*Seventh Section*/
 #seventhSection{
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 48px;
 }
 /*Eighth Section Section*/
 #eighthSection{
-    display:flex;
     padding: 1rem;
     background-image: url('https://res.cloudinary.com/dhrftaik2/image/upload/v1669543515/Practice/socialsbg_bn4od3.png');
     background-repeat: none;
     position: relative;
-    height: 370px;
+    background-size: cover;
     margin-bottom: 5rem;
     padding-top: 0;
 }
@@ -333,8 +323,7 @@ nav a{
   }
   #eighthSection .profileName{
     top:0;
-    margin-left: 10px;
-    margin-right: 25px;
+    margin: 0px 10px 0px 25px;
   }
   #eighthSection .discount{
     font-size: 16px;
@@ -348,8 +337,7 @@ nav a{
     padding: 10px;
     border:none;
     border-radius: 4px;
-    margin-right: 1.5rem;
-    margin-left: 5rem;
+    margin: 0px 24px 0px 80px;
     height: 1.5rem;
 }
 .row2{
@@ -357,22 +345,22 @@ nav a{
     justify-content: center;
     align-items: center;
     background-color: var(--main-social-color);
-    width: 70%;
-    margin-left: 125px;
-    padding: 0.5rem;
     border-radius: 4px;
+    padding: 12px;
+}
+.socialsContainer{
+    display: flex;
+    justify-content: center;
 }
 /*Ninth Section*/
 #ninthSection p{
-    margin-bottom: 25px;
-    margin-top: 0;
+    margin: 0px 0px 25px 0px;
 }
 #ninthSection .row{
     align-items: unset;
 }
 h4{
-    margin: 0;
-    margin-bottom: 5px;
+    margin: 0px 0px 5px 0px;
 }
 .applyDetails{
     margin-left: 15px;
@@ -381,29 +369,25 @@ h4{
     background-color: var(--main-teacher-color);
     border-radius: 4px;
     margin: 20px;
-    padding: 25px;
-    padding-top: 20px;
+    padding: 20px 25px 25px 25px;
     width: 28%
 }
 #business{
     background-color: var(--main-business-color);
     border-radius: 4px; 
     margin: 20px;
-    padding: 25px;
-    padding-top: 20px;
+    padding: 20px 25px 25px 25px;
     width: 28%
 }
 /*Footer*/
 footer{
-    padding-left: 150px;
-    padding-right: 130px;
     background-color: var(--main-text-color);
     color: var(--main-btntxt-color);
     bottom: 0;
 }
 hr{
-    width: 100%;
     opacity: 0.2;
+    margin: 0px 40px;
 }
 footer h4{
     margin-block-start: 1.2em;
@@ -412,10 +396,12 @@ footer h4{
 footer p{
     opacity: 0.6;
 }
-footer .row{
-    justify-content: unset;
-    width: 100%;
+ footer .container{
+    justify-content: center;
 }
-footer .column3{
-    width:95%
+.row3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
