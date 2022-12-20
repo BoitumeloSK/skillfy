@@ -27,7 +27,7 @@ i{
     justify-content: center;
     align-items: center;
 }
-#mainBtn{
+.main-btn{
     background-color:var(--main-btn-color);
     color: var(--main-btntxt-color);
     padding: 10px;
@@ -40,7 +40,7 @@ section{
 }
 /*---------------------------------------------------------------------------------------------------------------------*/
 /*Columns*/
-.column1{
+.column1, .goals-card{
     width: 19%;
     height: 30%;
     padding: 30px;
@@ -48,7 +48,7 @@ section{
     box-shadow: 0 8px 16px 0 rgba(70, 69, 69, 0.2), 0 6px 20px 0 rgba(95, 95, 95, 0.19);
     margin: 16px;
 }
-.column2{
+.column2, .welcome-info, .welcome-pic, .outcomes-info, .outcomes-pic, .courses-title, .courses-viewall, .learn-info, .learn-pic, .selection-title, .selection-viewall, .testimonials-title, .testimonials-nav{
     width:32%;
     padding: 16px;
 }
@@ -56,13 +56,13 @@ section{
     width:70%;
     margin-left: 40px;
 }
-.column4{
+.column4, .course-card{
     width: 19%;
     padding: 10px;
     box-shadow: 0 8px 16px 0 rgba(70, 69, 69, 0.2), 0 6px 20px 0 rgba(95, 95, 95, 0.19);
     margin: 16px;
 }
-.column5{
+.column5, .selection-card, .testimonials-card{
     width: 18.5vw;
     padding: 10px;
     margin: 16px;
@@ -125,8 +125,8 @@ nav a{
     color: var(--main-text-color);
 }
 
-/*First Section*/
-#firstSection{
+/*Welcome Section*/
+.welcome-section{
     display: flex;
     flex-direction: row;
     background-image: url('https://res.cloudinary.com/dhrftaik2/image/upload/v1669666521/Practice/welcombg_xpn2p6.png');
@@ -135,16 +135,16 @@ nav a{
     background-size: 100%;
     padding-bottom: 15px;
 }
-#welcomePic{
+#studying-student{
     max-height: 55vh;
     width: 30vw;
     border-radius: 5%;
 }
-#firstSection .h1 i{
+.welcome-section .h1 i{
     color: var(--main-btn-color);
     font-size:30px;
 }
-#welcome{
+.welcome-title{
     font-size: 2.8rem;
     line-height: 2.5rem;
     margin-block-end: 0px;
@@ -152,39 +152,40 @@ nav a{
 .sharing{
     font-size: 0.8rem;
 }
-.chosenShare{
+.share-now{
     background-position: center;
     background-repeat: none;
     opacity: 0.6;
     background-size: 2rem;
     padding:0.5rem;
 }
-/*Second Section*/
-#secondSection{
+
+/*Goals Section*/
+.goals-section{
     display: flex;
     flex-direction: row;
     margin-bottom: 5vh;
 }
-#goalsIcon{
+#goals-icon{
     height: 80px
 }
-#secondSection h1{
+.goals-section h1{
     font-size: 1.8rem;
     text-align: center;
 }
 
-/*Third Section*/
-#thirdSection{
+/*Outcomes Section*/
+.outcomes-section{
     display: flex;
     flex-direction: row;
     background-color: var(--main-section-color);
     padding: 16px 16px 30px 16px;
 }
-#thirdSection h1{
+.outcomes-section h1{
     font-size: 1.8rem;
     margin-block-start: 0;
 }
-#collaborationPic{
+#study-group{
     height: 45vh;
     width: 30vw;
     border-radius: 5%;
@@ -196,39 +197,40 @@ nav a{
     top: 5px;
     position: relative;
 }
-/*Fourth Section*/
-#fourthSection{
+/*Courses Section*/
+.courses-section{
     margin-bottom: 2rem;
 }
-#rightFloatDiv{
+.float-content{
     float: right;
     position: relative;
 }
-#studentPic{
+#card-image{
     width: 18.5vw;
     height: 12vw;
     border-radius: 2%
 }
-#starIcon{
+#star-icon{
     color: var(--main-star-color);
 }
-#eyeIcon{
+#eye-icon{
     color: var(--main-btn-color);
 }
-.cardSpan{
+.card-span{
     margin-right: 15px;
     opacity: 0.8;
     font-size:13px;
 }
-#instructorPic{
+/*Including testimonials card profile information*/
+#instructor-image, #student-image{
     border-radius:100%;
     width: 3.5vw;
     height: 3.5vw;
 }
-.profileDetails{
+.instructor-profile, .student-profile{
     display: flex;
 }
-.profileName{
+.instructor-details, .student-details{
     position: relative;
     top: 12px;
     margin-left: 5px;
@@ -238,8 +240,9 @@ nav a{
     opacity: 0.8;
     font-size:13px;
 }
-/*Fifth Section*/
-#fifthSection{
+
+/*Learn Section*/
+.learn-section{
     display: flex;
     flex-direction: row;
     background-image: url('https://res.cloudinary.com/dhrftaik2/image/upload/v1669241108/Practice/fifthbg_cltp90.png');
@@ -249,29 +252,21 @@ nav a{
     padding: 16px;
     margin-bottom: 3rem;
 }
-.video{
+#video-image{
     height: 44vh;
     width: 29vw;
     border-radius: 1%;
     border: 15px solid var(--main-btntxt-color);
     box-shadow: 0 8px 16px 0 rgba(70, 69, 69, 0.2), 0 6px 20px 0 rgba(95, 95, 95, 0.19);
 }
-/*Sixth Section*/
-#sixthSection{
+
+/*Selection Section*/
+.selection-section{
     background-image: url('https://res.cloudinary.com/dhrftaik2/image/upload/v1669151169/Practice/Copy_of_ircle_oitjm1.png');
     background-repeat: no-repeat;
     position: relative;
     background-size: cover; 
     padding: 10px 0px 30px 0px;
-}
-#sixthSection .column3{
-    width: 70%;
-    margin-left: 80px;
-}
-#sixthSection .column6{
-    position: relative;
-    top: 10px;
-    margin-right: 60px;
 }
 .slider{
     width: 60%;
@@ -281,12 +276,12 @@ nav a{
     justify-content: center;
 }
 /*Seventh Section*/
-#seventhSection{
+.join-section{
     text-align: center;
     margin-bottom: 48px;
 }
-/*Eighth Section Section*/
-#eighthSection{
+/*Testimonials Section*/
+.testimonials-section{
     padding: 1rem;
     background-image: url('https://res.cloudinary.com/dhrftaik2/image/upload/v1669543515/Practice/socialsbg_bn4od3.png');
     background-repeat: none;
@@ -295,14 +290,14 @@ nav a{
     margin-bottom: 5rem;
     padding-top: 0;
 }
-#next {
+#previous-btn, #next-btn {
     text-decoration: none;
     display: inline-block;
     padding: 8px 16px;
     border-radius: 4px;
   }
   
-  #next:hover {
+  #previous-btn:hover, #next-btn:hover {
     background-color: var(--main-btntxt-color);
     color: var(--main-navtxt-color);
   }
@@ -321,11 +316,11 @@ nav a{
     height: 3.5vw;
     border-radius:4px;
   }
-  #eighthSection .profileName{
+  .student-details{
     top:0;
     margin: 0px 10px 0px 25px;
   }
-  #eighthSection .discount{
+  .testimonials-card .discount{
     font-size: 16px;
   }
   #apple{
