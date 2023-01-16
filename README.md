@@ -12,7 +12,7 @@ This project is a clone of the Skillfy website home page design on Figma. Develo
 To view the page, you have to clone the repository using: 
 
 ```shell
-git clone <clone url>
+git clone https://github.com/BoitumeloSK/Skillfy.git
 ```
 
 ## Usage
