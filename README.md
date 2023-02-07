@@ -16,7 +16,7 @@ git clone https://github.com/BoitumeloSK/Skillfy.git
 ```
 
 ## Usage
-After cloning this the repository, double click the `index.html`.
+After cloning the repository, double click the `index.html`.
 
 ## Credits 
 Worked with [NMGODWILL](https://github.com/nmgodwill). Cloned web page from [Figma](https://www.figma.com/)
